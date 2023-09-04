@@ -11,6 +11,7 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 builder.Services.AddScoped<IPersonRepository, PersonRepository>();
 builder.Services.AddServices();
+builder.Services.AddMemoryCache();
 builder.Services.AddAutoMapper(typeof(Profiles));
 
 var app = builder.Build();
