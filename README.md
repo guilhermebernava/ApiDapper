@@ -59,3 +59,4 @@ After running these SQL commands, update the `DefaultConnection` in `appsettings
 - Repository Pattern
 - Stored Procedures
 - Clean Code
+- IMemoryCache
